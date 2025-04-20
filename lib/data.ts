@@ -172,8 +172,8 @@ export const PROJECTS: IProject[] = [
             'React Native',
             'Xampp',
         ],
-        thumbnail: '/projects/images/confiie.jpg',
-        longThumbnail: '/projects/images/confie2.jpg',
+        thumbnail: '/projects/images/confiie.png',
+        longThumbnail: '/projects/images/confie2.png',
         images: [
             '/projects/images/confiie.png',
             '/projects/images/confie2.png',
@@ -190,7 +190,7 @@ export const PROJECTS: IProject[] = [
     },
     {
         title: 'Power BI Dashboard',
-        slug: 'property-pro',
+        slug: 'power-bi-dashboard',
         techStack: [
             'React.js',
             'Redux',
@@ -208,7 +208,7 @@ export const PROJECTS: IProject[] = [
     },
     {
         title: 'Python E- commerce',
-        slug: 'crenotive',
+        slug: 'python-e-commerce',
         techStack: ['HTML', 'CSS', 'Python', 'Django'],
         thumbnail: '/projects/thumbnail/consulting-finance.jpg',
         longThumbnail: '/projects/long/consulting-finance.jpg',
@@ -221,16 +221,15 @@ export const PROJECTS: IProject[] = [
     },
     {
         title: 'Fort Gym System',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
+        slug: 'fort-gym-system',
+        techStack: ['ASP.Net', 'C#', 'DotNet MAUI Blazor', 'MySql'],
         thumbnail: '',
         longThumbnail: '',
         images: ['', '', ''],
         sourceCode: '',
         liveUrl: '',
-        year: 2023,
-        description:
-            'One of the most challenging projects in Frontend Mentor.\n\nI developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.',
+        year: 2022,
+        description: 'a 3 peer system ',
         role: ``,
     },
 ];
