@@ -52,6 +52,8 @@ const Experiences = () => {
     );
 
     return (
+        <>
+            {/* 
         <section className="py-section" id="my-experience">
             <div className="container" ref={containerRef}>
                 <SectionTitle title="My Experience" />
@@ -73,6 +75,9 @@ const Experiences = () => {
                 </div>
             </div>
         </section>
+         */}
+            {/* other JSX here… */}
+        </>
     );
 };
 
