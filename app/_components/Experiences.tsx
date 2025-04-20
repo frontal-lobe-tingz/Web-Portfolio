@@ -1,6 +1,6 @@
 'use client';
-//import SectionTitle from '@/components/SectionTitle';
-//import { MY_EXPERIENCE } from '@/lib/data';
+import SectionTitle from '@/components/SectionTitle';
+import { MY_EXPERIENCE } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -53,12 +53,12 @@ const Experiences = () => {
 
     return (
         <>
-            {/* 
-        <section className="py-section" id="my-experience">
-            <div className="container" ref={containerRef}>
-                <SectionTitle title="My Experience" />
+            <section className="py-section" id="my-experience">
+                <div className="container" ref={containerRef}>
+                    <SectionTitle title="My Experience" />
 
-                <div className="grid gap-14">
+                    <div className="grid gap-14">
+                        {/*
                     {MY_EXPERIENCE.map((item) => (
                         <div key={item.title} className="experience-item">
                             <p className="text-xl text-muted-foreground">
@@ -72,11 +72,10 @@ const Experiences = () => {
                             </p>
                         </div>
                     ))}
+              */}{' '}
+                    </div>
                 </div>
-            </div>
-        </section>
-         */}
-            {/* other JSX here… */}
+            </section>
         </>
     );
 };
