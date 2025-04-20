@@ -3,7 +3,7 @@ import { IProject } from '@/types';
 export const GENERAL_INFO = {
     email: 'ndumisotheodore@gmail.com',
 
-    emailSubject: "Ready ,At your service",
+    emailSubject: 'Ready ,At your service',
     emailBody: 'Hi Theodore, I am reaching out to you because...',
 
     oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
@@ -64,7 +64,7 @@ export const MY_STACK = {
             name: 'Node.js',
             icon: '/logo/node.png',
         },
-         {
+        {
             name: 'Asp.net',
             icon: '/logo/cc.png',
         },
@@ -82,12 +82,11 @@ export const MY_STACK = {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
         },
-    
+
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
-        
     ],
     Mobile: [
         {
@@ -134,7 +133,7 @@ export const MY_STACK = {
             name: 'Power BI',
             icon: '/logo/pbi.png',
         },
-       
+
         {
             name: 'AWS',
             icon: '/logo/aws.png',
@@ -146,14 +145,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Hotel Room Booking',
         slug: 'hotel-room-booking',
-        techStack: [
-            'React',
-            'Express',
-            'Node',
-            'CSS',
-            'HTML',
-            'MongoDB',
-        ],
+        techStack: ['React', 'Express', 'Node', 'CSS', 'HTML', 'MongoDB'],
         thumbnail: '/projects/images/hottie2.png',
         longThumbnail: '/projects/images/hottie1.png',
         images: [
@@ -180,18 +172,21 @@ export const PROJECTS: IProject[] = [
             'React Native',
             'Xampp',
         ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        thumbnail: '/projects/images/confie.jpg',
+        longThumbnail: '/projects/images/confie2.jpg',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/confie.png',
+            '/projects/images/confie2.png',
+            '/projects/images/confie3.png',
+            '/projects/images/confie8.png',
+            '/projects/images/confie7.png',
+            '/projects/images/confie6.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
+        liveUrl: '',
+        year: 2024,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:\n- Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.\n- Integrated GPT-4 for AI-driven feedback and insights.\n- Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            'Conference room booking is an app made to allow employees to book conference rooms at a convenient time and place',
+        role: `I was the sole developer in the creation of this system `,
     },
     {
         title: 'Power BI Dashboard',
@@ -205,33 +200,23 @@ export const PROJECTS: IProject[] = [
         ],
         thumbnail: '/projects/thumbnail/property-pro.jpg',
         longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2023,
-        description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:\n- Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.\n- Integrated dynamic state management for efficient handling of property data.\n- Implemented multi-language support with React i18n to cater to diverse audiences.\n- Enhanced user interaction with animations and transitions using Framer Motion.`,
+        images: ['', '', ''],
+        liveUrl: '',
+        year: 2024,
+        description: '',
+        role: ``,
     },
     {
         title: 'Python E- commerce',
         slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
+        techStack: ['HTML', 'CSS', 'Python', 'Django'],
         thumbnail: '/projects/thumbnail/consulting-finance.jpg',
         longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/Theodore/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
+        images: ['', '', ''],
+        sourceCode: '',
+        liveUrl: '',
         year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
+        description: '',
         role: ``,
     },
     {
@@ -240,13 +225,9 @@ export const PROJECTS: IProject[] = [
         techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
         thumbnail: '/projects/thumbnail/devLinks.jpg',
         longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/Theodore/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
+        images: ['', '', ''],
+        sourceCode: '',
+        liveUrl: '',
         year: 2023,
         description:
             'One of the most challenging projects in Frontend Mentor.\n\nI developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.',
@@ -255,7 +236,7 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const MY_EXPERIENCE = [
-    {
+    /* {
         title: 'Software Engineer (Frontend)',
         company: 'Strativ AB',
         duration: 'Dec 2024 - Present',
@@ -275,4 +256,11 @@ export const MY_EXPERIENCE = [
         company: 'Branex IT',
         duration: 'Jan 2022 - Oct 2022',
     },
+   
+    {
+        title: 'Frontend Developer (Part-time)',
+        company: 'Branex IT',
+        duration: 'Jan 2022 - Oct 2022',
+    },
+    */
 ];
