@@ -189,7 +189,7 @@ export const PROJECTS: IProject[] = [
         role: `I was the sole developer in the creation of this system `,
     },
     {
-        title: 'Power BI Dashboard',
+        title: 'Power BI change',
         slug: 'power-bi-dashboard',
         techStack: [
 
