@@ -191,8 +191,8 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Power BI change',
         slug: 'power-bi-dashboard',
-        techStack: [
-
+        techStack: [ 
+            'Microsoft Excel, Power BI'
         ],
         thumbnail: '/projects/images/tpowerbi.png',
         longThumbnail: '/projects/images/powerbi6.png',
@@ -218,7 +218,7 @@ export const PROJECTS: IProject[] = [
         sourceCode: '',
         liveUrl: '',
         year: 2023,
-        description:'',
+        description: 'A Python project using the Django Framework, the system allows users to add books to a cart and purchase them',
         role: `I was the only person working on this project`,
     },
     {
@@ -231,7 +231,7 @@ export const PROJECTS: IProject[] = [
         sourceCode: '',
         liveUrl: '',
         year: 2022,
-        description: 'a 3 peer system ',
+        description: 'Built a 3-peer Modern System for a farm situated in Tembisa, that solves their day-to-day farming problems.  As a Group of 4, we helped them keep track of their inventory, Sales, which products are sold the most and least. ',
         role: ``,
     },
 ];
