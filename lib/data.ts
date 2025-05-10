@@ -194,8 +194,8 @@ export const PROJECTS: IProject[] = [
         techStack: [
 
         ],
-        thumbnail: '/projects/images/powerbi1',
-        longThumbnail: '/projects/images/powerbi7',
+        thumbnail: '/projects/images/powerbi1.png',
+        longThumbnail: '/projects/images/powerbi7.png',
         images: ['/projects/images/powerbi38.png',
             '/projects/images/powerbi2.png',
             '/projects/images/powerbi3.png',
